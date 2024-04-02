@@ -17,7 +17,11 @@ source-repository head
   location: https://github.com/blueripple/model-tools
 
 library
-  exposed-modules: BlueRipple.Model.CategorizeElection, BlueRipple.Model.PostStratify, BlueRipple.Model.TurnoutAdjustment
+  exposed-modules: BlueRipple.Model.CategorizeElection
+                 , BlueRipple.Model.PostStratify
+                 , BlueRipple.Model.TurnoutAdjustment
+                 , BlueRipple.Model.StanTools
+
   hs-source-dirs: src
   ghc-options: -Wall -O2 -fno-warn-unused-top-binds -funbox-strict-fields
   build-depends:
